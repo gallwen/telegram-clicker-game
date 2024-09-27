@@ -2,27 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Clicker Game</title>
+  <title>Running Dog Game</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Include Telegram Web Apps JavaScript Library -->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
-  <div id="game">
-    <h1>Click the Button!</h1>
-    <p id="timer">Time Left: <span id="time">10</span>s</p>
-    <p id="score">Score: <span id="clicks">0</span></p>
-    <button id="click-button" disabled>Click Me!</button>
-    <div id="game-over" style="display: none;">
-      <h2>Game Over!</h2>
-      <p>Your Score: <span id="final-score">0</span></p>
-      <button id="restart-button">Play Again</button>
-    </div>
-    <div id="difficulty-selection">
-  <h2>Select Difficulty</h2>
-  <button class="difficulty-button" data-time="15">Easy</button>
-  <button class="difficulty-button" data-time="10">Medium</button>
-  <button class="difficulty-button" data-time="5">Hard</button>
-</div>
-
+  <canvas id="gameCanvas" width="800" height="400"></canvas>
+  <div id="game-over" style="display: none;">
+    <h2>Game Over!</h2>
+    <p>Your Score: <span id="final-score">0</span></p>
+    <button id="restart-button">Play Again</button>
   </div>
   <script src="script.js"></script>
 </body>
