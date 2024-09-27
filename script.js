@@ -57,4 +57,14 @@ window.onload = () => {
 if (typeof TelegramGameProxy !== 'undefined') {
     TelegramGameProxy.postEvent('score', score);
   }
+#difficulty-selection {
+  margin-top: 20px;
+}
+
+.difficulty-button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+}
+
   
