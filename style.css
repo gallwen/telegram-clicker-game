@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #click-button, #restart-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  #game-over {
+    margin-top: 20px;
+  }
+  

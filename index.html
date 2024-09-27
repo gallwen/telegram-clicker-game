@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clicker Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+    <h1>Click the Button!</h1>
+    <p id="timer">Time Left: <span id="time">10</span>s</p>
+    <p id="score">Score: <span id="clicks">0</span></p>
+    <button id="click-button" disabled>Click Me!</button>
+    <div id="game-over" style="display: none;">
+      <h2>Game Over!</h2>
+      <p>Your Score: <span id="final-score">0</span></p>
+      <button id="restart-button">Play Again</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
